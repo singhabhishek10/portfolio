@@ -1,0 +1,114 @@
+  /*
+  ========================================================================
+  VERSION : 1.0
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Template Name   : RD-JENNY
+  Author          : RAHUL DAS
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  Copyright (c) 2018 
+  ========================================================================
+  */
+  /* Medium Layout: 1280px. */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+	
+	
+	
+	
+	
+  }
+  /*   ***** Tablet Layout: 768px.  ******     */
+  @media only screen and (min-width: 768px) and (max-width: 991px) { 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  }
+  /*  ***** Mobile Layout: 320px. *****    */
+  @media only screen and (max-width: 767px) { 
+   
+   /* RESUME AREA START */
+  .resume-area {
+   
+    padding-top: 55px;
+    padding-bottom: 0px;
+  }
+  .resume-details .item:nth-child(odd) .box:before, 
+  .resume-details .item:nth-child(odd) .box:after, 
+  .resume-details .item:nth-child(even) .box:before, 
+  .resume-details .item:nth-child(even) .box:after {
+    content: '';
+    display: none;
+  }
+  .resume-details:before, 
+  .resume-details:after {
+    content: '';
+    display: none;
+  }
+  .resume-details .item .col-sm-6:nth-child(even){
+    padding-left: 15px;
+  }
+  .resume-details .item .col-sm-6:nth-child(odd){
+    padding-right: 15px;
+  }
+  .resume-details .item:nth-child(even) .col-sm-6:first-child{
+    padding-left: 15px;
+    text-align: right;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .resume-details .item:nth-child(even) .col-sm-6:nth-child(2) {
+    padding-right: 15px;
+    text-align: left;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+  }
+  .resume-details .item .box, 
+  .resume-details .item:nth-child(even) .box {
+    float: none;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+  .box_dec {
+    padding: 24px 30px;
+    
+    margin-bottom: 50px;
+  }
+  .resume-details .description{    
+    margin-bottom: 10px;
+  } 
+  .sub-section2 {
+    padding-top: 0px;
+  }
+  /*RESUME AREA END */
+   
+   
+   
+   
+   
+   
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+
+
+
+
+
+
+
+
+}
